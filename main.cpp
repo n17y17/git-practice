@@ -1,8 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define rep(i ,n) for(int i = 0 ;i < n ;i++)
+int add(int a, int b) {
+    return a + b;
+}
 
 int main() {
-    rep(i,100) cout << "Herro Maximum" << endl;
+    cout << add(3, -2) << endl;
+    return 0;
 }
